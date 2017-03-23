@@ -53,6 +53,15 @@
     <Compile Include="Consumidores\ConsumidorConfiguration.cs" />
     <Compile Include="EcomerceContext.cs" />
     <Compile Include="EcomerceInicializer.cs" />
+    <Compile Include="Migrations\201703232028271_inicial.cs" />
+    <Compile Include="Migrations\201703232028271_inicial.Designer.cs">
+      <DependentUpon>201703232028271_inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703232031266_Plural.cs" />
+    <Compile Include="Migrations\201703232031266_Plural.Designer.cs">
+      <DependentUpon>201703232031266_Plural.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Produtos\ProdutoConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,7 +75,14 @@
       <Name>DDDAngular.Dominio</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201703232028271_inicial.resx">
+      <DependentUpon>201703232028271_inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703232031266_Plural.resx">
+      <DependentUpon>201703232031266_Plural.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
