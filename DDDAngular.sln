@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestrutura", "Infraestr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistencia", "Persistencia", "{C5578AD8-518B-49F6-94A4-0D6669A24D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacao.DDDAngular", "Aplicacao.DDDAngular\Aplicacao.DDDAngular.csproj", "{3B6F71DE-5ECD-4910-8E29-342B9DAA9A73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDAngular.Aplicacao", "Aplicacao.DDDAngular\DDDAngular.Aplicacao.csproj", "{3B6F71DE-5ECD-4910-8E29-342B9DAA9A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.DDDAngular", "Dominio.DDDAngular\Dominio.DDDAngular.csproj", "{79A9FE56-2975-4FC2-8CAA-A80768BAD546}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDAngular.Dominio", "Dominio.DDDAngular\DDDAngular.Dominio.csproj", "{79A9FE56-2975-4FC2-8CAA-A80768BAD546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDAngular.Service", "DDDAngular.Service\DDDAngular.Service.csproj", "{90249709-AFB5-4F57-BFBE-FB03DEEB7BD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDAngular.Servico", "DDDAngular.Service\DDDAngular.Servico.csproj", "{90249709-AFB5-4F57-BFBE-FB03DEEB7BD6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDAngular.Infraestrutura", "DDDAngular.Infraestrutura\DDDAngular.Infraestrutura.csproj", "{6A0B5D7C-FB33-4A06-A806-ACE76EE1711C}"
 EndProject

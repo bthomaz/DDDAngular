@@ -7,8 +7,8 @@
     <ProjectGuid>{3B6F71DE-5ECD-4910-8E29-342B9DAA9A73}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Aplicacao.DDDAngular</RootNamespace>
-    <AssemblyName>Aplicacao.DDDAngular</AssemblyName>
+    <RootNamespace>DDDAngular.Aplicacao</RootNamespace>
+    <AssemblyName>DDDAngular.Aplicacao</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
