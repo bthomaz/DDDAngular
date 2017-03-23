@@ -8,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace DDDAngular.Persistencia.Carrinhos
 {
-    public class CarrinhoConfiguration : EntityTypeConfiguration<Carrinho>
+    public class ProdutosCarrinhoConfiguration : EntityTypeConfiguration<ProdutosCarrinho>
     {
-        public CarrinhoConfiguration()
+        public ProdutosCarrinhoConfiguration()
         {
-            HasKey(p => p.IdCarrinho);
+            HasKey(c => c.IdProdutosCarrinho);
 
-            HasRequired(p => p.Consumidor);
+            HasRequired(c => c.Carrinho);
+            HasRequired(c => c.Produto);
         }
     }
 }

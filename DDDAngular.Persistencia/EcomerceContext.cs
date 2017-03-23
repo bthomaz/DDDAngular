@@ -23,6 +23,8 @@ namespace DDDAngular.Persistencia
 
         public IDbSet<Carrinho> Carrinhos { get; set; }
 
+        public IDbSet<ProdutosCarrinho> ProdutosCarrinho { get; set; }
+
         public EcomerceContext() : base("DDDAngular")
         {
             Database.SetInitializer(new EcomerceInicializer());
@@ -40,6 +42,7 @@ namespace DDDAngular.Persistencia
             modelBuilder.Configurations.Add(new ConsumidorConfiguration());
             modelBuilder.Configurations.Add(new ProdutoConfiguration());
             modelBuilder.Configurations.Add(new CarrinhoConfiguration());
+            modelBuilder.Configurations.Add(new ProdutosCarrinhoConfiguration());
         }
     }
 }

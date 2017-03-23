@@ -13,13 +13,13 @@ namespace DDDAngular.Dominio.Carrinhos
         public Carrinho()
         {
             this.Consumidor = new Consumidor();
-            this.Produtos = new List<Produto>();
+            this.ProdutosCarrinho = new List<Carrinhos.ProdutosCarrinho>();
         }
 
         public int IdCarrinho { get; set; }
 
         public Consumidor Consumidor { get; set; }
 
-        public List<Produto> Produtos { get; set; }
+        public List<ProdutosCarrinho> ProdutosCarrinho { get; set; }
     }
 }
